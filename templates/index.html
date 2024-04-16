@@ -9,7 +9,10 @@
 </head>
 
 <body class="p-5">
-  <h1 class="mb-4">Simple notes</h1>
+  <h1 class="mb-4">
+    <i class="fas fa-sticky-note mr-3"></i>
+    Simple notes
+  </h1>
 
   <form action="/submit" method="post" class="mb-4">
     <textarea name="text" class="form-control mb-2" rows="5"></textarea>
@@ -33,6 +36,11 @@
     </tbody>
   </table>
   {% endfor %}
+
+  <footer class="text-center mt-5">
+    <p style="font-size: small; color: lightgrey;">Created by Roberto with the help of GitHub Copilot <i
+        class="fas fa-heart"></i></p>
+  </footer>
 </body>
 
 </html>
